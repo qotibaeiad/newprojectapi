@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#grid {
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Additional styles for the grid element, adjust as needed */
+#grid:hover {
+  transform: scale3d(1, 1, 1.1); /* Example scaling on hover, adjust as needed */
+}
+
+.title {
+  color: white;
+}
+
+.display-none {
+  @apply hidden;
+}
+
+/* 
+.cont div {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.cont div:hover {
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
+}
+ */
